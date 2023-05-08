@@ -1,0 +1,140 @@
+spring:
+  mail:
+    # 是否开启邮件通知
+    enable: true
+    #  默认的邮件编码为UTF-8
+    default-encoding: UTF-8
+    # 邮箱服务器
+    host: smtp.qq.com
+    # 邮箱
+    username: pyofdu84@163.com
+    # 密码
+    password: sqn65884020
+    # 端口
+    port: 994
+  # 定义jackson时间序列化格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  # 数据库的连接信息
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/my_blog?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update # 更新或者创建数据表结构 如果数据库中没做表，Jpa会我们创建 这个配置就是在没有表的时候创建，实体类发生改变的话 会更新表结构
+    show-sql: true
+  thymeleaf:
+    # 关闭缓存
+    cache: false
+    # 模版的前缀
+    prefix: classpath:/templates/
+    # 开启模版的本地check
+    check-template-location: true
+    # 模版的后缀
+    suffix: .html
+    # 模版的编码
+    encoding: utf-8
+    # 响应头的content-Type
+    servlet:
+      content-type: text/html
+    # 模式H5
+    mode: HTML5
+  servlet:
+    multipart:
+      max-file-size: 20MB
+  cache:
+    type: ehcache
+    ehcache:
+      config: classpath:/ehcache-spring.xml
+logging:
+  file:
+    path: ./logs
+  level:
+    root: info
+# 定义用户上传文件的路径
+upload:
+  base-dir: ./upload/
+website:
+  # 站点标题
+  title: Alex的练习
+  # SEO 关键字
+  keywords:
+    - typecho
+    - freewind
+    - java
+    - 程序员
+    - springboot
+    - 学习
+    - 自学
+  # SEO描述信息
+  description: 记录日常业余生活
+  # 站长头像
+  avatar: /static/image/avatar/头像.png
+  # 站长昵称
+  nickname: Alex
+  # 管理页用户名
+  username: admin
+  # 管理页密码，用MD5加密后的密文
+  password: 7fef6171469e80d32c0559f88b377245
+  # 站长坐标
+  address: 河南
+  # 站点favicon
+  favicon: /static/image/kuailedexiaogou.png
+  # 站长标签
+  tags:
+    - java
+    - springboot
+    - 大数据
+    - 网页设计
+  # 站点URL
+  url: http://localhost:8080
+  # 网站上面的一句话
+  navdesc: 用代码做点好玩的事件，让每一天都变的充实起来
+  # 开启CDN 开启注解即可赋值即可
+#  cdn:
+  # 开启调试，此时进后台就不要密码了
+  debug: false
+  # 站长QQ
+  qq: 3222722025
+  # 站长Github
+  github: https://github.com/linmoss
+  # 站长新浪
+  sina: https://weibo.com/lengwenboke
+  # 站长邮箱
+  mail: nxnn33@163.com
+  # 网站LOGO 300 x 80
+  logo: /static/image/avatar/logo.png
+  # 网站底部信息
+  footer: '<p> Alex 版权所有 Copyright © </p> <p><a target="_blank" href="https://beian.miit.gov.cn">豫ICP备xxx-1号</a>
+<a style="margin-left: 10px" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11011402012109"><img style="vertical-align: top;" src="https://imagebed-1252410096.cos.ap-nanjing.myqcloud.com/2046/d4ab98835b8842c88eededac6e7c9e35.png">京公网安备
+   123456号</a></p>'
+# 默认图片配置
+default-image:
+  # 文章没有封面时默认从下述的图片取一个，可以使用外链的方式
+  images:
+    - /static/image/1.jpg
+    - /static/image/2.jpg
+    - /static/image/3.jpg
+    - /static/image/4.jpg
+    - /static/image/5.jpg
+  # 评论者如果使用QQ邮箱评论，直接取QQ头像作为评论头像，反之使用下面的随机图片做为头像，可以使用外链
+  avatars:
+    - /static/image/avatar/1.png
+    - /static/image/avatar/2.png
+    - /static/image/avatar/3.png
+    - /static/image/avatar/4.png
+    - /static/image/avatar/5.png
+    - /static/image/avatar/6.png
+    - /static/image/avatar/7.png
+    - /static/image/avatar/8.png
+    - /static/image/avatar/9.png
+    - /static/image/avatar/10.png
+    - /static/image/avatar/11.png
+    - /static/image/avatar/12.png
+    - /static/image/avatar/13.png
+server:
+  port: 80 # 端口，给一个服务器上没有被占用的ip
+

@@ -1,0 +1,494 @@
+[INFO  2023-05-05 10:42:23,738] [main o.A.Application] - Starting Application on DESKTOP-OAISHFE with PID 6948 (F:\Code\My-blog\target\classes started by 1 in F:\Code\My-blog) 
+[INFO  2023-05-05 10:42:23,740] [main o.A.Application] - No active profile set, falling back to default profiles: default 
+[INFO  2023-05-05 10:42:24,273] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[INFO  2023-05-05 10:42:24,339] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 60ms. Found 7 JPA repository interfaces. 
+[INFO  2023-05-05 10:42:24,556] [main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'cacheConfig' of type [org.Alex.config.CacheConfig$$EnhancerBySpringCGLIB$$f3ccbdd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO  2023-05-05 10:42:24,791] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http) 
+[INFO  2023-05-05 10:42:24,797] [main o.a.c.h.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 10:42:24,798] [main o.a.c.c.StandardService] - Starting service [Tomcat] 
+[INFO  2023-05-05 10:42:24,798] [main o.a.c.c.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+[INFO  2023-05-05 10:42:25,298] [main o.a.c.c.C.[.[.[/]] - Initializing Spring embedded WebApplicationContext 
+[INFO  2023-05-05 10:42:25,298] [main o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1514 ms 
+[INFO  2023-05-05 10:42:25,552] [main o.h.j.i.u.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+[INFO  2023-05-05 10:42:25,625] [main o.h.Version] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+[INFO  2023-05-05 10:42:25,712] [main o.h.a.c.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+[INFO  2023-05-05 10:42:25,793] [main c.z.h.HikariDataSource] - HikariPool-1 - Starting... 
+[INFO  2023-05-05 10:42:25,949] [main c.z.h.HikariDataSource] - HikariPool-1 - Start completed. 
+[INFO  2023-05-05 10:42:25,964] [main o.h.d.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+[INFO  2023-05-05 10:42:26,631] [main o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+[INFO  2023-05-05 10:42:26,637] [main o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[WARN  2023-05-05 10:42:27,184] [main o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[INFO  2023-05-05 10:42:27,277] [main o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 10:42:27,346] [main o.s.b.a.w.s.WelcomePageHandlerMapping] - Adding welcome page template: index 
+[INFO  2023-05-05 10:42:27,364] [main o.A.c.WebConfig] - absolutePath:F:\Code\My-blog\.\upload/ 
+[WARN  2023-05-05 10:42:27,404] [main o.t.t.TemplateMode] - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+[INFO  2023-05-05 10:42:27,482] [main o.a.c.h.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 10:42:27,507] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path '' 
+[INFO  2023-05-05 10:42:27,566] [main o.A.Application] - Started Application in 4.259 seconds (JVM running for 5.108) 
+[INFO  2023-05-05 10:42:35,865] [http-nio-8080-exec-1 o.a.c.c.C.[.[.[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[INFO  2023-05-05 10:42:35,865] [http-nio-8080-exec-1 o.s.w.s.DispatcherServlet] - Initializing Servlet 'dispatcherServlet' 
+[INFO  2023-05-05 10:42:35,872] [http-nio-8080-exec-1 o.s.w.s.DispatcherServlet] - Completed initialization in 7 ms 
+[INFO  2023-05-05 10:44:20,721] [SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 10:44:20,722] [SpringContextShutdownHook o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+[INFO  2023-05-05 10:44:20,724] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown initiated... 
+[INFO  2023-05-05 10:44:20,729] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown completed. 
+[INFO  2023-05-05 10:46:35,839] [main o.A.Application] - Starting Application on DESKTOP-OAISHFE with PID 9220 (F:\Code\My-blog\target\classes started by 1 in F:\Code\My-blog) 
+[INFO  2023-05-05 10:46:35,841] [main o.A.Application] - No active profile set, falling back to default profiles: default 
+[INFO  2023-05-05 10:46:36,391] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[INFO  2023-05-05 10:46:36,456] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 56ms. Found 7 JPA repository interfaces. 
+[INFO  2023-05-05 10:46:36,676] [main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'cacheConfig' of type [org.Alex.config.CacheConfig$$EnhancerBySpringCGLIB$$b343a294] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO  2023-05-05 10:46:36,889] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http) 
+[INFO  2023-05-05 10:46:36,897] [main o.a.c.h.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 10:46:36,897] [main o.a.c.c.StandardService] - Starting service [Tomcat] 
+[INFO  2023-05-05 10:46:36,897] [main o.a.c.c.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+[INFO  2023-05-05 10:46:36,967] [main o.a.c.c.C.[.[.[/]] - Initializing Spring embedded WebApplicationContext 
+[INFO  2023-05-05 10:46:36,967] [main o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1092 ms 
+[INFO  2023-05-05 10:46:37,234] [main o.h.j.i.u.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+[INFO  2023-05-05 10:46:37,265] [main o.h.Version] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+[INFO  2023-05-05 10:46:37,390] [main o.h.a.c.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+[INFO  2023-05-05 10:46:37,464] [main c.z.h.HikariDataSource] - HikariPool-1 - Starting... 
+[INFO  2023-05-05 10:46:37,564] [main c.z.h.HikariDataSource] - HikariPool-1 - Start completed. 
+[INFO  2023-05-05 10:46:37,579] [main o.h.d.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+[INFO  2023-05-05 10:46:38,136] [main o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+[INFO  2023-05-05 10:46:38,142] [main o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[WARN  2023-05-05 10:46:38,690] [main o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[INFO  2023-05-05 10:46:38,783] [main o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 10:46:38,847] [main o.s.b.a.w.s.WelcomePageHandlerMapping] - Adding welcome page template: index 
+[INFO  2023-05-05 10:46:38,865] [main o.A.c.WebConfig] - absolutePath:F:\Code\My-blog\.\upload/ 
+[WARN  2023-05-05 10:46:38,904] [main o.t.t.TemplateMode] - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+[INFO  2023-05-05 10:46:38,981] [main o.a.c.h.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 10:46:38,998] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path '' 
+[INFO  2023-05-05 10:46:39,039] [main o.A.Application] - Started Application in 3.574 seconds (JVM running for 4.201) 
+[INFO  2023-05-05 10:46:43,059] [SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 10:46:43,061] [SpringContextShutdownHook o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+[INFO  2023-05-05 10:46:43,064] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown initiated... 
+[INFO  2023-05-05 10:46:43,072] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown completed. 
+[INFO  2023-05-05 10:46:49,598] [main o.A.Application] - Starting Application on DESKTOP-OAISHFE with PID 8960 (F:\Code\My-blog\target\classes started by 1 in F:\Code\My-blog) 
+[INFO  2023-05-05 10:46:49,601] [main o.A.Application] - No active profile set, falling back to default profiles: default 
+[INFO  2023-05-05 10:46:50,088] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[INFO  2023-05-05 10:46:50,152] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 57ms. Found 7 JPA repository interfaces. 
+[INFO  2023-05-05 10:46:50,363] [main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'cacheConfig' of type [org.Alex.config.CacheConfig$$EnhancerBySpringCGLIB$$b343a294] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO  2023-05-05 10:46:50,593] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http) 
+[INFO  2023-05-05 10:46:50,601] [main o.a.c.h.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 10:46:50,602] [main o.a.c.c.StandardService] - Starting service [Tomcat] 
+[INFO  2023-05-05 10:46:50,602] [main o.a.c.c.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+[INFO  2023-05-05 10:46:50,668] [main o.a.c.c.C.[.[.[/]] - Initializing Spring embedded WebApplicationContext 
+[INFO  2023-05-05 10:46:50,669] [main o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1032 ms 
+[INFO  2023-05-05 10:46:50,916] [main o.h.j.i.u.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+[INFO  2023-05-05 10:46:50,988] [main o.h.Version] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+[INFO  2023-05-05 10:46:51,076] [main o.h.a.c.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+[INFO  2023-05-05 10:46:51,148] [main c.z.h.HikariDataSource] - HikariPool-1 - Starting... 
+[INFO  2023-05-05 10:46:51,250] [main c.z.h.HikariDataSource] - HikariPool-1 - Start completed. 
+[INFO  2023-05-05 10:46:51,265] [main o.h.d.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+[INFO  2023-05-05 10:46:51,871] [main o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+[INFO  2023-05-05 10:46:51,877] [main o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[WARN  2023-05-05 10:46:52,415] [main o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[INFO  2023-05-05 10:46:52,509] [main o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 10:46:52,584] [main o.s.b.a.w.s.WelcomePageHandlerMapping] - Adding welcome page template: index 
+[INFO  2023-05-05 10:46:52,602] [main o.A.c.WebConfig] - absolutePath:F:\Code\My-blog\.\upload/ 
+[WARN  2023-05-05 10:46:52,642] [main o.t.t.TemplateMode] - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+[INFO  2023-05-05 10:46:52,724] [main o.a.c.h.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 10:46:52,742] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path '' 
+[INFO  2023-05-05 10:46:52,783] [main o.A.Application] - Started Application in 3.544 seconds (JVM running for 4.152) 
+[INFO  2023-05-05 10:46:56,874] [SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 10:46:56,876] [SpringContextShutdownHook o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+[INFO  2023-05-05 10:46:56,877] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown initiated... 
+[INFO  2023-05-05 10:46:56,882] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown completed. 
+[INFO  2023-05-05 10:58:47,909] [main o.A.Application] - Starting Application on DESKTOP-OAISHFE with PID 7132 (F:\Code\My-blog\target\classes started by 1 in F:\Code\My-blog) 
+[INFO  2023-05-05 10:58:47,910] [main o.A.Application] - No active profile set, falling back to default profiles: default 
+[INFO  2023-05-05 10:58:48,428] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[INFO  2023-05-05 10:58:48,491] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 56ms. Found 7 JPA repository interfaces. 
+[INFO  2023-05-05 10:58:48,703] [main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'cacheConfig' of type [org.Alex.config.CacheConfig$$EnhancerBySpringCGLIB$$b343a294] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO  2023-05-05 10:58:48,927] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http) 
+[INFO  2023-05-05 10:58:48,934] [main o.a.c.h.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 10:58:48,935] [main o.a.c.c.StandardService] - Starting service [Tomcat] 
+[INFO  2023-05-05 10:58:48,935] [main o.a.c.c.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+[INFO  2023-05-05 10:58:49,005] [main o.a.c.c.C.[.[.[/]] - Initializing Spring embedded WebApplicationContext 
+[INFO  2023-05-05 10:58:49,005] [main o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1061 ms 
+[INFO  2023-05-05 10:58:49,263] [main o.h.j.i.u.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+[INFO  2023-05-05 10:58:49,336] [main o.h.Version] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+[INFO  2023-05-05 10:58:49,424] [main o.h.a.c.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+[INFO  2023-05-05 10:58:49,498] [main c.z.h.HikariDataSource] - HikariPool-1 - Starting... 
+[INFO  2023-05-05 10:58:49,603] [main c.z.h.HikariDataSource] - HikariPool-1 - Start completed. 
+[INFO  2023-05-05 10:58:49,616] [main o.h.d.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+[INFO  2023-05-05 10:58:50,197] [main o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+[INFO  2023-05-05 10:58:50,203] [main o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[WARN  2023-05-05 10:58:50,767] [main o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[INFO  2023-05-05 10:58:50,876] [main o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 10:58:50,945] [main o.s.b.a.w.s.WelcomePageHandlerMapping] - Adding welcome page template: index 
+[INFO  2023-05-05 10:58:50,967] [main o.A.c.WebConfig] - absolutePath:F:\Code\My-blog\.\upload/ 
+[WARN  2023-05-05 10:58:51,016] [main o.t.t.TemplateMode] - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+[INFO  2023-05-05 10:58:51,127] [main o.a.c.h.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 10:58:51,145] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path '' 
+[INFO  2023-05-05 10:58:51,186] [main o.A.Application] - Started Application in 3.649 seconds (JVM running for 4.254) 
+[INFO  2023-05-05 10:59:33,180] [SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 10:59:33,181] [SpringContextShutdownHook o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+[INFO  2023-05-05 10:59:33,183] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown initiated... 
+[INFO  2023-05-05 10:59:33,188] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown completed. 
+[INFO  2023-05-05 11:00:21,469] [main o.A.Application] - Starting Application on DESKTOP-OAISHFE with PID 9080 (F:\Code\My-blog\target\classes started by 1 in F:\Code\My-blog) 
+[INFO  2023-05-05 11:00:21,470] [main o.A.Application] - No active profile set, falling back to default profiles: default 
+[INFO  2023-05-05 11:00:21,997] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[INFO  2023-05-05 11:00:22,057] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 54ms. Found 7 JPA repository interfaces. 
+[INFO  2023-05-05 11:00:22,263] [main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'cacheConfig' of type [org.Alex.config.CacheConfig$$EnhancerBySpringCGLIB$$7a3862b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO  2023-05-05 11:00:22,475] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http) 
+[INFO  2023-05-05 11:00:22,482] [main o.a.c.h.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 11:00:22,482] [main o.a.c.c.StandardService] - Starting service [Tomcat] 
+[INFO  2023-05-05 11:00:22,482] [main o.a.c.c.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+[INFO  2023-05-05 11:00:22,988] [main o.a.c.c.C.[.[.[/]] - Initializing Spring embedded WebApplicationContext 
+[INFO  2023-05-05 11:00:22,988] [main o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1475 ms 
+[INFO  2023-05-05 11:00:23,290] [main o.h.j.i.u.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+[INFO  2023-05-05 11:00:23,320] [main o.h.Version] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+[INFO  2023-05-05 11:00:23,461] [main o.h.a.c.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+[INFO  2023-05-05 11:00:23,546] [main c.z.h.HikariDataSource] - HikariPool-1 - Starting... 
+[INFO  2023-05-05 11:00:23,691] [main c.z.h.HikariDataSource] - HikariPool-1 - Start completed. 
+[INFO  2023-05-05 11:00:23,705] [main o.h.d.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+[INFO  2023-05-05 11:00:24,255] [main o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+[INFO  2023-05-05 11:00:24,262] [main o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[WARN  2023-05-05 11:00:24,816] [main o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[INFO  2023-05-05 11:00:24,905] [main o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 11:00:24,976] [main o.s.b.a.w.s.WelcomePageHandlerMapping] - Adding welcome page template: index 
+[INFO  2023-05-05 11:00:24,994] [main o.A.c.WebConfig] - absolutePath:F:\Code\My-blog\.\upload/ 
+[WARN  2023-05-05 11:00:25,032] [main o.t.t.TemplateMode] - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+[INFO  2023-05-05 11:00:25,107] [main o.a.c.h.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 11:00:25,140] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path '' 
+[INFO  2023-05-05 11:00:25,184] [main o.A.Application] - Started Application in 4.404 seconds (JVM running for 5.668) 
+[INFO  2023-05-05 11:00:43,166] [http-nio-8080-exec-1 o.a.c.c.C.[.[.[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[INFO  2023-05-05 11:00:43,167] [http-nio-8080-exec-1 o.s.w.s.DispatcherServlet] - Initializing Servlet 'dispatcherServlet' 
+[INFO  2023-05-05 11:00:43,177] [http-nio-8080-exec-1 o.s.w.s.DispatcherServlet] - Completed initialization in 10 ms 
+[INFO  2023-05-05 11:02:55,693] [SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 11:02:55,694] [SpringContextShutdownHook o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+[INFO  2023-05-05 11:02:55,696] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown initiated... 
+[INFO  2023-05-05 11:02:55,704] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown completed. 
+[INFO  2023-05-05 11:07:11,176] [main o.A.Application] - Starting Application on DESKTOP-OAISHFE with PID 7364 (F:\Code\My-blog\target\classes started by 1 in F:\Code\My-blog) 
+[INFO  2023-05-05 11:07:11,178] [main o.A.Application] - No active profile set, falling back to default profiles: default 
+[INFO  2023-05-05 11:07:11,663] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[INFO  2023-05-05 11:07:11,721] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 52ms. Found 7 JPA repository interfaces. 
+[INFO  2023-05-05 11:07:11,928] [main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'cacheConfig' of type [org.Alex.config.CacheConfig$$EnhancerBySpringCGLIB$$fe222268] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO  2023-05-05 11:07:12,135] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http) 
+[INFO  2023-05-05 11:07:12,141] [main o.a.c.h.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 11:07:12,142] [main o.a.c.c.StandardService] - Starting service [Tomcat] 
+[INFO  2023-05-05 11:07:12,142] [main o.a.c.c.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+[INFO  2023-05-05 11:07:12,222] [main o.a.c.c.C.[.[.[/]] - Initializing Spring embedded WebApplicationContext 
+[INFO  2023-05-05 11:07:12,222] [main o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1010 ms 
+[INFO  2023-05-05 11:07:12,465] [main o.h.j.i.u.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+[INFO  2023-05-05 11:07:12,496] [main o.h.Version] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+[INFO  2023-05-05 11:07:12,648] [main o.h.a.c.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+[INFO  2023-05-05 11:07:12,718] [main c.z.h.HikariDataSource] - HikariPool-1 - Starting... 
+[INFO  2023-05-05 11:07:12,814] [main c.z.h.HikariDataSource] - HikariPool-1 - Start completed. 
+[INFO  2023-05-05 11:07:12,828] [main o.h.d.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+[INFO  2023-05-05 11:07:13,368] [main o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+[INFO  2023-05-05 11:07:13,375] [main o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[WARN  2023-05-05 11:07:13,887] [main o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[INFO  2023-05-05 11:07:13,977] [main o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 11:07:14,040] [main o.s.b.a.w.s.WelcomePageHandlerMapping] - Adding welcome page template: index 
+[INFO  2023-05-05 11:07:14,056] [main o.A.c.WebConfig] - absolutePath:F:\Code\My-blog\.\upload/ 
+[WARN  2023-05-05 11:07:14,091] [main o.t.t.TemplateMode] - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+[INFO  2023-05-05 11:07:14,170] [main o.a.c.h.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"] 
+[WARN  2023-05-05 11:07:14,199] [main o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use 
+[INFO  2023-05-05 11:07:14,200] [main o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 11:07:14,201] [main o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+[INFO  2023-05-05 11:07:14,203] [main c.z.h.HikariDataSource] - HikariPool-1 - Shutdown initiated... 
+[INFO  2023-05-05 11:07:14,207] [main c.z.h.HikariDataSource] - HikariPool-1 - Shutdown completed. 
+[INFO  2023-05-05 11:07:14,211] [main o.a.c.h.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 11:07:14,212] [main o.a.c.c.StandardService] - Stopping service [Tomcat] 
+[INFO  2023-05-05 11:07:14,215] [main o.a.c.h.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 11:07:14,215] [main o.a.c.h.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 11:07:14,220] [main o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[ERROR 2023-05-05 11:07:14,223] [main o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+ 
+[INFO  2023-05-05 14:02:47,926] [main o.A.Application] - Starting Application on DESKTOP-OAISHFE with PID 7076 (F:\Code\My-blog\target\classes started by 1 in F:\Code\My-blog) 
+[INFO  2023-05-05 14:02:47,944] [main o.A.Application] - No active profile set, falling back to default profiles: default 
+[INFO  2023-05-05 14:02:48,783] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[INFO  2023-05-05 14:02:48,842] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 53ms. Found 7 JPA repository interfaces. 
+[INFO  2023-05-05 14:02:49,057] [main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'cacheConfig' of type [org.Alex.config.CacheConfig$$EnhancerBySpringCGLIB$$5dc11163] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO  2023-05-05 14:02:49,433] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http) 
+[INFO  2023-05-05 14:02:49,439] [main o.a.c.h.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 14:02:49,440] [main o.a.c.c.StandardService] - Starting service [Tomcat] 
+[INFO  2023-05-05 14:02:49,440] [main o.a.c.c.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+[INFO  2023-05-05 14:02:49,904] [main o.a.c.c.C.[.[.[/]] - Initializing Spring embedded WebApplicationContext 
+[INFO  2023-05-05 14:02:49,904] [main o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1912 ms 
+[INFO  2023-05-05 14:02:50,186] [main o.h.j.i.u.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+[INFO  2023-05-05 14:02:50,220] [main o.h.Version] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+[INFO  2023-05-05 14:02:50,313] [main o.h.a.c.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+[INFO  2023-05-05 14:02:50,442] [main c.z.h.HikariDataSource] - HikariPool-1 - Starting... 
+[ERROR 2023-05-05 14:02:51,577] [main c.z.h.p.HikariPool] - HikariPool-1 - Exception during pool initialization. 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$169/220454978.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.Alex.Application.main(Application.java:13)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:447)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:212)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1433)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 51 common frames omitted
+[WARN  2023-05-05 14:02:51,583] [main o.h.e.j.e.i.JdbcEnvironmentInitiator] - HHH000342: Could not obtain connection to query metadata 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$169/220454978.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.Alex.Application.main(Application.java:13)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:447)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:212)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1433)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 51 common frames omitted
+[ERROR 2023-05-05 14:02:51,589] [main o.s.o.j.LocalContainerEntityManagerFactoryBean] - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] 
+[WARN  2023-05-05 14:02:51,592] [main o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] 
+[INFO  2023-05-05 14:02:51,612] [main o.a.c.c.StandardService] - Stopping service [Tomcat] 
+[INFO  2023-05-05 14:02:51,643] [main o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+[ERROR 2023-05-05 14:02:51,650] [main o.s.b.SpringApplication] - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$169/220454978.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.Alex.Application.main(Application.java:13)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	... 18 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 35 common frames omitted
+[INFO  2023-05-05 15:21:42,142] [main o.A.Application] - Starting Application on DESKTOP-OAISHFE with PID 10828 (F:\Code\My-blog\target\classes started by 1 in F:\Code\My-blog) 
+[INFO  2023-05-05 15:21:42,144] [main o.A.Application] - No active profile set, falling back to default profiles: default 
+[INFO  2023-05-05 15:21:42,669] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[INFO  2023-05-05 15:21:42,734] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 58ms. Found 7 JPA repository interfaces. 
+[INFO  2023-05-05 15:21:42,951] [main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'cacheConfig' of type [org.Alex.config.CacheConfig$$EnhancerBySpringCGLIB$$43f5d88a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO  2023-05-05 15:21:43,170] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http) 
+[INFO  2023-05-05 15:21:43,177] [main o.a.c.h.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 15:21:43,178] [main o.a.c.c.StandardService] - Starting service [Tomcat] 
+[INFO  2023-05-05 15:21:43,178] [main o.a.c.c.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+[INFO  2023-05-05 15:21:43,652] [main o.a.c.c.C.[.[.[/]] - Initializing Spring embedded WebApplicationContext 
+[INFO  2023-05-05 15:21:43,652] [main o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1470 ms 
+[INFO  2023-05-05 15:21:43,902] [main o.h.j.i.u.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+[INFO  2023-05-05 15:21:43,935] [main o.h.Version] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+[INFO  2023-05-05 15:21:44,082] [main o.h.a.c.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+[INFO  2023-05-05 15:21:44,156] [main c.z.h.HikariDataSource] - HikariPool-1 - Starting... 
+[INFO  2023-05-05 15:21:44,252] [main c.z.h.HikariDataSource] - HikariPool-1 - Start completed. 
+[INFO  2023-05-05 15:21:44,267] [main o.h.d.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+[INFO  2023-05-05 15:21:44,850] [main o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+[INFO  2023-05-05 15:21:44,857] [main o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[WARN  2023-05-05 15:21:45,475] [main o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[INFO  2023-05-05 15:21:45,567] [main o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 15:21:45,636] [main o.s.b.a.w.s.WelcomePageHandlerMapping] - Adding welcome page template: index 
+[INFO  2023-05-05 15:21:45,655] [main o.A.c.WebConfig] - absolutePath:F:\Code\My-blog\.\upload/ 
+[WARN  2023-05-05 15:21:45,695] [main o.t.t.TemplateMode] - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+[INFO  2023-05-05 15:21:45,772] [main o.a.c.h.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 15:21:45,822] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path '' 
+[INFO  2023-05-05 15:21:45,872] [main o.A.Application] - Started Application in 4.087 seconds (JVM running for 6.541) 
+[INFO  2023-05-05 15:21:54,041] [http-nio-8080-exec-1 o.a.c.c.C.[.[.[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[INFO  2023-05-05 15:21:54,041] [http-nio-8080-exec-1 o.s.w.s.DispatcherServlet] - Initializing Servlet 'dispatcherServlet' 
+[INFO  2023-05-05 15:21:54,049] [http-nio-8080-exec-1 o.s.w.s.DispatcherServlet] - Completed initialization in 8 ms 
+[INFO  2023-05-05 16:54:44,952] [SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 16:54:44,953] [SpringContextShutdownHook o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+[INFO  2023-05-05 16:54:44,956] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown initiated... 
+[INFO  2023-05-05 16:54:44,961] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown completed. 
+[INFO  2023-05-05 20:29:07,684] [main o.A.Application] - Starting Application on DESKTOP-OAISHFE with PID 2144 (F:\Code\My-blog\target\classes started by 1 in F:\Code\My-blog) 
+[INFO  2023-05-05 20:29:07,686] [main o.A.Application] - No active profile set, falling back to default profiles: default 
+[INFO  2023-05-05 20:29:08,309] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[INFO  2023-05-05 20:29:08,376] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 61ms. Found 7 JPA repository interfaces. 
+[INFO  2023-05-05 20:29:08,635] [main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'cacheConfig' of type [org.Alex.config.CacheConfig$$EnhancerBySpringCGLIB$$3796f7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO  2023-05-05 20:29:08,862] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http) 
+[INFO  2023-05-05 20:29:08,870] [main o.a.c.h.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 20:29:08,870] [main o.a.c.c.StandardService] - Starting service [Tomcat] 
+[INFO  2023-05-05 20:29:08,871] [main o.a.c.c.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+[INFO  2023-05-05 20:29:08,972] [main o.a.c.c.C.[.[.[/]] - Initializing Spring embedded WebApplicationContext 
+[INFO  2023-05-05 20:29:08,973] [main o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1250 ms 
+[INFO  2023-05-05 20:29:09,231] [main o.h.j.i.u.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+[INFO  2023-05-05 20:29:09,262] [main o.h.Version] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+[INFO  2023-05-05 20:29:09,423] [main o.h.a.c.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+[INFO  2023-05-05 20:29:09,504] [main c.z.h.HikariDataSource] - HikariPool-1 - Starting... 
+[INFO  2023-05-05 20:29:09,619] [main c.z.h.HikariDataSource] - HikariPool-1 - Start completed. 
+[INFO  2023-05-05 20:29:09,634] [main o.h.d.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+[INFO  2023-05-05 20:29:10,347] [main o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+[INFO  2023-05-05 20:29:10,358] [main o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[WARN  2023-05-05 20:29:11,053] [main o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[INFO  2023-05-05 20:29:11,145] [main o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 20:29:11,210] [main o.s.b.a.w.s.WelcomePageHandlerMapping] - Adding welcome page template: index 
+[INFO  2023-05-05 20:29:11,228] [main o.A.c.WebConfig] - absolutePath:F:\Code\My-blog\.\upload/ 
+[WARN  2023-05-05 20:29:11,270] [main o.t.t.TemplateMode] - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+[INFO  2023-05-05 20:29:11,368] [main o.a.c.h.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"] 
+[INFO  2023-05-05 20:29:11,388] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path '' 
+[INFO  2023-05-05 20:29:11,443] [main o.A.Application] - Started Application in 4.225 seconds (JVM running for 5.112) 
+[INFO  2023-05-05 20:29:22,365] [http-nio-8080-exec-1 o.a.c.c.C.[.[.[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[INFO  2023-05-05 20:29:22,365] [http-nio-8080-exec-1 o.s.w.s.DispatcherServlet] - Initializing Servlet 'dispatcherServlet' 
+[INFO  2023-05-05 20:29:22,372] [http-nio-8080-exec-1 o.s.w.s.DispatcherServlet] - Completed initialization in 7 ms 
+[INFO  2023-05-05 20:31:37,222] [SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-05 20:31:37,224] [SpringContextShutdownHook o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+[INFO  2023-05-05 20:31:37,226] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown initiated... 
+[INFO  2023-05-05 20:31:37,234] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown completed. 

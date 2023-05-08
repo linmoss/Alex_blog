@@ -1,0 +1,34 @@
+[INFO  2023-05-08 13:35:25,937] [main o.A.Application] - Starting Application on DESKTOP-OAISHFE with PID 6300 (F:\Code\My-blog\target\classes started by 1 in F:\Code\My-blog) 
+[INFO  2023-05-08 13:35:25,940] [main o.A.Application] - No active profile set, falling back to default profiles: default 
+[INFO  2023-05-08 13:35:27,523] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[INFO  2023-05-08 13:35:27,610] [main o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 63ms. Found 7 JPA repository interfaces. 
+[INFO  2023-05-08 13:35:27,899] [main o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'cacheConfig' of type [org.Alex.config.CacheConfig$$EnhancerBySpringCGLIB$$b870cf67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[INFO  2023-05-08 13:35:28,189] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat initialized with port(s): 80 (http) 
+[INFO  2023-05-08 13:35:28,196] [main o.a.c.h.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-80"] 
+[INFO  2023-05-08 13:35:28,197] [main o.a.c.c.StandardService] - Starting service [Tomcat] 
+[INFO  2023-05-08 13:35:28,197] [main o.a.c.c.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+[INFO  2023-05-08 13:35:28,763] [main o.a.c.c.C.[.[.[/]] - Initializing Spring embedded WebApplicationContext 
+[INFO  2023-05-08 13:35:28,763] [main o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2749 ms 
+[INFO  2023-05-08 13:35:29,384] [main o.h.j.i.u.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+[INFO  2023-05-08 13:35:29,506] [main o.h.Version] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+[INFO  2023-05-08 13:35:29,767] [main o.h.a.c.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+[INFO  2023-05-08 13:35:29,897] [main c.z.h.HikariDataSource] - HikariPool-1 - Starting... 
+[INFO  2023-05-08 13:35:30,076] [main c.z.h.HikariDataSource] - HikariPool-1 - Start completed. 
+[INFO  2023-05-08 13:35:30,095] [main o.h.d.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+[INFO  2023-05-08 13:35:30,807] [main o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+[INFO  2023-05-08 13:35:30,814] [main o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[WARN  2023-05-08 13:35:31,605] [main o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[INFO  2023-05-08 13:35:31,727] [main o.s.s.c.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-08 13:35:31,829] [main o.s.b.a.w.s.WelcomePageHandlerMapping] - Adding welcome page template: index 
+[INFO  2023-05-08 13:35:31,850] [main o.A.c.WebConfig] - absolutePath:F:\Code\My-blog\.\upload/ 
+[WARN  2023-05-08 13:35:31,928] [main o.t.t.TemplateMode] - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+[INFO  2023-05-08 13:35:32,074] [main o.a.c.h.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-80"] 
+[INFO  2023-05-08 13:35:32,147] [main o.s.b.w.e.t.TomcatWebServer] - Tomcat started on port(s): 80 (http) with context path '' 
+[INFO  2023-05-08 13:35:32,241] [main o.A.Application] - Started Application in 7.016 seconds (JVM running for 11.913) 
+[INFO  2023-05-08 13:36:04,032] [http-nio-80-exec-1 o.a.c.c.C.[.[.[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[INFO  2023-05-08 13:36:04,032] [http-nio-80-exec-1 o.s.w.s.DispatcherServlet] - Initializing Servlet 'dispatcherServlet' 
+[INFO  2023-05-08 13:36:04,037] [http-nio-80-exec-1 o.s.w.s.DispatcherServlet] - Completed initialization in 5 ms 
+[INFO  2023-05-08 13:51:18,384] [SpringContextShutdownHook o.s.s.c.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor' 
+[INFO  2023-05-08 13:51:18,385] [SpringContextShutdownHook o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+[INFO  2023-05-08 13:51:18,388] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown initiated... 
+[INFO  2023-05-08 13:51:18,407] [SpringContextShutdownHook c.z.h.HikariDataSource] - HikariPool-1 - Shutdown completed. 
